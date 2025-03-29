@@ -1,0 +1,13 @@
+n_punto,detalle,resultado
+1,Crea un DataFrame frutas que luzca así,Guardado en punto_1.csv
+2,Crea un DataFrame ventas_frutas con los datos indicados,Guardado en punto_2.csv
+3,Crea una Serie utensilios con los datos indicados,Guardado en punto_3.csv
+4,"Descarga el dataset 'wine review' desde Kaggle y cárgalo en un DataFrame llamado review, tal y como se muestra en la figura.",Guardado en punto_4.csv
+5,Visualiza las primeras filas del DataFrame,Guardado en punto_5.csv
+6,Utiliza el método .info() para averiguar cuántas entradas hay. ¿Cuántas encontraste?,Guardado en punto_6.csv
+7,¿Cuál es el precio promedio?,Guardado en punto_7.csv
+8,¿Cuál es el precio más alto pagado?,Guardado en punto_8.csv
+9,Crea un DataFrame con todos los vinos de california.,Guardado en punto_9.csv
+10,Utiliza idxmax() para encontrar el índice del vino con el precio más alto y luego utiliza loc para obtener toda la información de ese vino específico.,Guardado en punto_10.csv
+11,¿Cuáles son los tipos de uva más comunesen California?,Guardado en punto_11.csv
+12,¿Cuáles son los 10 tipos de uva más comunes en California?,Guardado en punto_12.csv
