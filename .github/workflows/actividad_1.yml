@@ -1,4 +1,4 @@
-name: Actividad_1
+name: Actividad 1, actividad 3
 
 on:
   push:
@@ -28,12 +28,14 @@ jobs:
       - name: paso4 - instalar dependencias
         run: pip install -e .
       - name: paso5 - Ejecutar script
-        run: python src/pad/actividad_1.py 
+        run: python src/pad/actividad-1/actividad_1.py 
+      - name: paso6 - Ejecutar script
+        run: python src/pad/actividad-3/Actividad_3.py 
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: entrega actividad 1
-          commit_user_name: Yovany Patiño [GitHub Actions]
+          commit_message: entrega actividad 1, actividad 3
+          commit_user_name: Yovany Cardona y Leonel Moscoso [GitHub Actions]
           commit_user_email: yovany.patino@est.iudigital.edu.co
-          commit_author: Yovany Patiño <yovany.patino@est.iudigital.edu.co>
+          commit_author: Yovany Cardona y Leonel Moscoso <yovany.patino@est.iudigital.edu.co>
